@@ -20,6 +20,7 @@ body {
 
 .container img {
     width: 100%;
+    max-width: 280px; /* Empêcher l'image d'être trop grande */
     border-radius: 10px;
 }
 
@@ -27,11 +28,13 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: #333;
+    margin-top: 15px;
 }
 
 .container p {
     font-size: 14px;
     color: #666;
+    margin: 10px 20px;
 }
 
 
