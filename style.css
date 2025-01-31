@@ -1,50 +1,38 @@
-@import url('https://fonts.google.com/specimen/Outfit');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
+    font-family: Arial, sans-serif;
+    background-color: #e0eafc;
     display: flex;
-    justify-content: center;  /* Centre horizontalement */
-    align-items: center;  /* Centre verticalement */
-    height: 100vh;  /* Hauteur de la fenêtre */
-    margin: 0;
-    background-color: rgb(226, 236, 240);
-  }
-  
-  .container {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 300px;
-    height: 420px;    
-    background-color: hsl(0, 0%, 100%);
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-  }
-  
-
-  .img{
-    background-image: url('image/image-qr-code.png');
-    background-size: cover;
-    border-radius: 5px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
 }
 
-.container .text_1 {
-    padding: 15px 30px;
-    font-size: 20px;
-    opacity: 0.8;
+.container img {
+    width: 100%;
+    border-radius: 10px;
 }
 
-.container .text_2 {
-    padding: 10px 30px 5px 30px;
-    font-size: 13px;
-    opacity: 0.3;
+.container h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
 }
+
+.container p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+
